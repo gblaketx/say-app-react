@@ -1,0 +1,2 @@
+web: PORT=3000 yarn --cwd say-app-frontend start
+api: cd ./say-app-backend && bundle exec rails s -p 3001

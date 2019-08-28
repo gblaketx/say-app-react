@@ -29,9 +29,18 @@ module SayAppBackend
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
+    # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
+    # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
+    config.time_zone = "Pacific Time (US & Canada)"
+
     # Only loads a smaller set of middleware suitable for API only apps.
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # TODO: set using environment variable
+    config.action_dispatch.default_headers = {
+        'Access-Control-Allow-Origin' => 'http://localhost:3000',
+    }
   end
 end
