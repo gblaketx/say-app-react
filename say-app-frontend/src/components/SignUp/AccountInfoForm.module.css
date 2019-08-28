@@ -1,0 +1,14 @@
+.scaledForm {
+  max-width: 500px;
+  margin: auto;
+}
+
+.boldLabel {
+  font-weight: bold;
+  margin-left: 0;
+  text-align: left;
+}
+
+.bioTextArea {
+  min-height: 200px;
+}

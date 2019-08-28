@@ -1,0 +1,38 @@
+.flexBlock {
+  display: flex;
+}
+
+.flexColumnWide {
+  flex: 70%;
+  padding: 0px 0px 15px 15px;
+
+}
+
+.flexColumnNarrow {
+  flex: 30%;
+}
+
+.paddedTextArea {
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.paddedHorizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ratingDropdown {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.sizedImage {
+  max-width: 825px;
+  margin-left: auto;
+}
+
+.styleDescriptionText {
+  color: darkgray;
+}

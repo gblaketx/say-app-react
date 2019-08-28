@@ -1,0 +1,15 @@
+.centeredSwitch {
+  display: flex;
+  align-items: center;
+
+}
+
+.switchLabel {
+  text-align: right;
+  min-width: 260px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}

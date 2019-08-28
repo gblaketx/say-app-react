@@ -1,0 +1,21 @@
+.padded {
+  width: 80%;
+  min-width: 500px;
+  margin: auto;
+}
+
+.smallIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.centerPadded {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.floatSubmitButton {
+  float: right;
+  margin-left: calc(-10% - 16px);
+  margin-right: calc(10% + 16px);
+}

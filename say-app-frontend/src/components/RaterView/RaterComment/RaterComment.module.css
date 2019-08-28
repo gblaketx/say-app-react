@@ -1,0 +1,17 @@
+.bold {
+  font-weight: bold;
+}
+
+.paddedSized {
+  max-width: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.commentCardText {
+  text-align: left;
+}
+
+div.thinBody {
+  padding-bottom: 10px;
+}

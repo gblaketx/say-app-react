@@ -1,0 +1,24 @@
+
+.paddedContent {
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1140px;
+}
+
+.paddedTable {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.paddedButton {
+  margin-top: 16px;
+}
+
+.alignedListGroup {
+  text-align: left;
+}
+
+.centeredButton {
+  text-align: center;
+}
