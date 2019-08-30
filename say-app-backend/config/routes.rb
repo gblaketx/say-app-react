@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     resources :test_data
     devise_for :users, :skip => :registrations
     resources :users
+    resources :documents
   end
 
 

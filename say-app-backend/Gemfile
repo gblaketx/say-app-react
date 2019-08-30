@@ -45,3 +45,6 @@ gem 'devise'
 
 # searching and sorting submissions
 gem 'ransack'
+
+#App settings
+gem "rails-settings-cached", "~> 2.0"
