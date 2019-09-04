@@ -1,0 +1,11 @@
+.guidelinesText {
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uploadButtonContainer {
+  display: flex;
+  justify-content: space-between;
+}

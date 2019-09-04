@@ -1,0 +1,20 @@
+.newSubmissionPage {
+  max-width: 500px;
+  margin: auto;
+}
+
+.boldLabel {
+  font-weight: bold;
+  margin-left: 0;
+  text-align: left;
+}
+
+.fileUploadText {
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+.submissionContainer {
+  display: flex;
+  justify-content: space-between;
+}

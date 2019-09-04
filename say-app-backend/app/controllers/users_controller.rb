@@ -1,10 +1,11 @@
 class UsersController < ApplicationController
   # before_action :set_user, only: [:show, :edit, :update, :destroy]
-  # before_filter :authenticate_user! TODO: uncomment
+  # before_filter :authenticate_user!
+  # TODO: uncomment
 
   respond_to :json
 
-  # load_and_authorize_resource
+  load_and_authorize_resource
 
   # GET /users
   # GET /users.json

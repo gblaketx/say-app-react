@@ -34,4 +34,4 @@ const HelpPage: React.FunctionComponent = () => {
   );
 };
 
-export default HelpPage;
+export default React.memo(HelpPage);

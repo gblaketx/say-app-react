@@ -1,9 +1,9 @@
 class DocumentsController < ApplicationController
-  # before_action :set_document, only: [:show, :edit, :update, :destroy, :toggle_approved]
+  before_action :set_document, only: [:show, :edit, :update, :destroy, :toggle_approved]
 
   respond_to :json
-  # TODO: uncomment
-  # load_and_authorize_resource :except => [:document]
+
+  load_and_authorize_resource :except => [:document]
 
   def index
     @search = Document.search(params[:q])

@@ -1,6 +1,12 @@
 
-export type DocumentStyleType = "Fiction" | "Nonfiction" | "Poetry";
+// export type DocumentStyleType = "Fiction" | "Nonfiction" | "Poetry";
 export type StatusType = "under_review" | "accepted" | "rejected";
+
+export enum DocumentStyleType {
+  FICTION = "Fiction",
+  NONFICTION = "Nonfiction",
+  POETRY = "Poetry",
+}
 
 export interface SubmissionType {
   id: number;

@@ -18,6 +18,9 @@ import UserInfoPage from './components/UserInfo/UserInfoPage';
 import EditUserPage from './components/EditUserPage';
 import DocumentRaterView from './components/RaterView/DocumentRaterView';
 import ArtRaterView from './components/RaterView/ArtRaterView';
+import NewDocumentSubmissionPage from './components/NewSubmissionPage/NewDocumentSubmissionPage';
+import NewArtSubmissionPage from './components/NewSubmissionPage/NewArtSubmissionPage';
+import UserUploadPage from './components/NewSubmissionPage/UserUploadPage';
 import './App.css';
 
 const App: React.FunctionComponent = () => {
@@ -43,6 +46,9 @@ const App: React.FunctionComponent = () => {
           <Route path="/editors/signup" component={EditorSignUpPage} />
           <Route path="/users/:id" component={UserInfoPage} />
           <Route path="/edit/users/:id" component={EditUserPage} />
+          <Route path="/submission-upload" component={UserUploadPage} />
+          <Route path="/submission/new-document" component={NewDocumentSubmissionPage} />
+          <Route path="/submission/new-art" component={NewArtSubmissionPage} />
         </Switch>
       </div>
     </Router>
